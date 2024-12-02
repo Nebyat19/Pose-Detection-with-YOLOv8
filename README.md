@@ -1,9 +1,8 @@
 # Pose Detection with YOLOv8
 
-![keypoints_diagram](images/keypoints_diagram.png)
+
 This project implements a real-time pose detection system using the YOLOv8 model and OpenCV. It captures video from a webcam, detects human pose keypoints, and visualizes them on the video stream.
-
-
+![keypoints_diagram](images/keypoints_diagram.png)
 
 ## Screenshots
 ![Screenshot](images/screenshot.png)

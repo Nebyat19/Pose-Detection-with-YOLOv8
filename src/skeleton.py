@@ -44,8 +44,6 @@ while cap.isOpened():
                 cv2.circle(blank_image, (int(x),int (y)), radius=5, color=(0,250,50), thickness=1)
                 cv2.putText(blank_image, f'{i}', (int(x), int(y)-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255,255,255), 1, cv2.LINE_AA)
 
-
-
    
     for part_a,part_b in connections:
           if keypoints.any():
